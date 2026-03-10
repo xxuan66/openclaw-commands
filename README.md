@@ -1,8 +1,18 @@
-# OpenClaw 常用指令速查手册
+# 🦞 OpenClaw 常用指令速查手册
 
-> 🦞 OpenClaw 命令行快速参考，日常操作一查即用
+> 📚 OpenClaw 命令行快速参考，日常操作一查即用
 
-## 目录
+[![Updated](https://img.shields.io/badge/updated-2026--03--10-blue)](https://github.com/xxuan66/openclaw-commands)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/xxuan66/openclaw-commands/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/xxuan66/openclaw-commands?style=social)](https://github.com/xxuan66/openclaw-commands/stargazers)
+
+---
+
+**⭐ 如果这个项目对你有帮助，请给个 Star！**
+
+---
+
+## 📋 目录
 
 - [Gateway 管理](#gateway-管理)
 - [模型配置](#模型配置)
@@ -205,13 +215,25 @@ alias oc-logs='openclaw logs --tail 100'
 
 ---
 
-## 有用的链接
+## 🔗 相关链接
 
-- [OpenClaw 官方文档](https://docs.openclaw.ai)
-- [OpenClaw GitHub](https://github.com/openclaw/openclaw)
-- [ClawHub 技能市场](https://clawhub.ai)
-- [Discord 社区](https://discord.com/invite/clawd)
+| 链接 | 描述 |
+|------|------|
+| [📖 OpenClaw 官方文档](https://docs.openclaw.ai) | 完整文档 |
+| [🦞 OpenClaw GitHub](https://github.com/openclaw/openclaw) | 官方仓库 |
+| [🛒 ClawHub 技能市场](https://clawhub.ai) | 下载 Skill |
+| [💬 Discord 社区](https://discord.com/invite/clawd) | 加入社区 |
 
 ---
 
-**最后更新:** 2026-03-10
+## 📝 贡献
+
+欢迎提交 Issue 和 PR！
+
+- 发现错误？[提交 Issue](https://github.com/xxuan66/openclaw-commands/issues)
+- 有新指令？[提交 PR](https://github.com/xxuan66/openclaw-commands/pulls)
+
+---
+
+**最后更新:** 2026-03-10  
+**维护者:** [@xxuan66](https://github.com/xxuan66)
