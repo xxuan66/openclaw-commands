@@ -1,0 +1,16 @@
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Config (如果有敏感信息)
+*.env
+config.local.json
