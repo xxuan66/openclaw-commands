@@ -49,7 +49,7 @@ openclaw models list
 openclaw models set bailian/qwen3.5-plus
 
 # 添加 fallback 模型
-openclaw models fallbacks add mimo/mimo-claw-0301
+openclaw models fallbacks add <provider>/<model-name>
 
 # 查看 fallback 列表
 openclaw models fallbacks list
@@ -139,10 +139,10 @@ openclaw message send --channel feishu --target <chat_id> --media /path/to/image
 openclaw config get models.providers
 
 # 设置配置
-openclaw config set models.providers.mimo.apiKey "sk-xxx"
+openclaw config set models.providers.<provider>.apiKey "sk-xxx"
 
 # 删除配置
-openclaw config unset models.providers.mimo
+openclaw config unset models.providers.<provider>
 
 # 编辑配置文件
 openclaw config edit
@@ -181,7 +181,7 @@ openclaw models fallbacks list
 # 检查插件状态
 openclaw plugins status
 
-# 凍新启用插件
+# 重新启用插件
 openclaw plugins disable <name> && openclaw plugins enable <name>
 
 # 查看插件日志
