@@ -237,3 +237,10 @@ alias oc-logs='openclaw logs --tail 100'
 
 **最后更新:** 2026-03-10  
 **维护者:** [@xxuan66](https://github.com/xxuan66)
+
+---
+
+## 📊 仓库统计
+
+> 统计数据由 OpenClaw Bot 每日自动更新，保存在本地 `github-stats/` 目录，**不上传到 GitHub** 以保护隐私。
+
