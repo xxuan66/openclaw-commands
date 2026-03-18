@@ -2,7 +2,7 @@
 
 > 📚 OpenClaw 命令行快速参考，日常操作一查即用
 
-[![Updated](https://img.shields.io/badge/updated-2026--03--10-blue)](https://github.com/xxuan66/openclaw-commands)
+[![Updated](https://img.shields.io/badge/updated-2026--03--18-blue)](https://github.com/xxuan66/openclaw-commands)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/xxuan66/openclaw-commands/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/xxuan66/openclaw-commands?style=social)](https://github.com/xxuan66/openclaw-commands/stargazers)
 
