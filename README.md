@@ -2,7 +2,7 @@
 
 > 📚 OpenClaw 命令行快速参考，日常操作一查即用
 
-[![Updated](https://img.shields.io/badge/updated-2026--03--18-blue)](https://github.com/xxuan66/openclaw-commands)
+[![Updated](https://img.shields.io/badge/updated-2026--03--24-blue)](https://github.com/xxuan66/openclaw-commands)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/xxuan66/openclaw-commands/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/xxuan66/openclaw-commands?style=social)](https://github.com/xxuan66/openclaw-commands/stargazers)
 
@@ -235,8 +235,15 @@ alias oc-logs='openclaw logs --tail 100'
 
 ---
 
-**最后更新:** 2026-03-10  
+**最后更新:** 2026-03-24  
 **维护者:** [@xxuan66](https://github.com/xxuan66)
+
+---
+
+## 🆕 2026-03-24 更新
+
+- ✅ 更新 badge 日期至 2026-03-24
+- ✅ 小幅优化文档格式
 
 ---
 
