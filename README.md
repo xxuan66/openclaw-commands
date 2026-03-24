@@ -2,7 +2,7 @@
 
 > 📚 OpenClaw 命令行快速参考，日常操作一查即用
 
-[![Updated](https://img.shields.io/badge/updated-2026--03--24-blue)](https://github.com/xxuan66/openclaw-commands)
+[![Updated](https://img.shields.io/badge/updated-2026--03--25-blue)](https://github.com/xxuan66/openclaw-commands)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/xxuan66/openclaw-commands/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/xxuan66/openclaw-commands?style=social)](https://github.com/xxuan66/openclaw-commands/stargazers)
 
@@ -198,6 +198,32 @@ openclaw plugins disable <name> && openclaw plugins enable <name>
 openclaw logs | grep <plugin-name>
 ```
 
+### Cron 任务不触发
+
+```bash
+# 查看任务执行历史
+openclaw cron runs <job-id>
+
+# 手动触发一次验证
+openclaw cron run <job-id>
+
+# 确认 Gateway 在运行（cron 依赖 Gateway）
+openclaw gateway status
+```
+
+### Token / 认证过期
+
+```bash
+# 重新登录
+openclaw auth login
+
+# 查看当前认证状态
+openclaw auth status
+
+# 刷新 Token
+openclaw auth refresh
+```
+
 ---
 
 ## 快速命令别名
@@ -235,8 +261,13 @@ alias oc-logs='openclaw logs --tail 100'
 
 ---
 
-**最后更新:** 2026-03-24  
+**最后更新:** 2026-03-25  
 **维护者:** [@xxuan66](https://github.com/xxuan66)
+
+## 🆕 2026-03-25 更新
+
+- ✅ 故障排查新增「Cron 任务不触发」和「Token 过期」两节
+- ✅ 更新 badge 日期至 2026-03-25
 
 ---
 
