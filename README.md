@@ -2,7 +2,7 @@
 
 > 📚 OpenClaw 命令行快速参考，日常操作一查即用
 
-[![Updated](https://img.shields.io/badge/updated-2026--03--27-blue)](https://github.com/xxuan66/openclaw-commands)
+[![Updated](https://img.shields.io/badge/updated-2026--03--29-blue)](https://github.com/xxuan66/openclaw-commands)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/xxuan66/openclaw-commands/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/xxuan66/openclaw-commands?style=social)](https://github.com/xxuan66/openclaw-commands/stargazers)
 
@@ -224,6 +224,19 @@ openclaw auth status
 openclaw auth refresh
 ```
 
+### 会话异常 / 响应慢
+
+```bash
+# 列出活跃会话，检查是否有卡住的
+openclaw sessions list
+
+# 清理长时间无活动的会话
+openclaw sessions delete --session-id <id>
+
+# 查看最近日志定位问题
+openclaw logs --tail 50 | grep -i "error\|timeout\|fail"
+```
+
 ---
 
 ## 快速命令别名
@@ -261,8 +274,13 @@ alias oc-logs='openclaw logs --tail 100'
 
 ---
 
-**最后更新:** 2026-03-25  
+**最后更新:** 2026-03-29  
 **维护者:** [@xxuan66](https://github.com/xxuan66)
+
+## 🆕 2026-03-29 更新
+
+- ✅ 故障排查新增「会话异常 / 响应慢」章节
+- ✅ 更新 badge 日期至 2026-03-29
 
 ## 🆕 2026-03-25 更新
 
